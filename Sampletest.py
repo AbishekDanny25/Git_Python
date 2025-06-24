@@ -49,20 +49,34 @@
 
 #6)Python program to count the number of even and odd numbers from a series of numbers
 
-Start = int(input("Enter the Starting Number:"))
-Ending = int(input("Enter the Ending Number:"))
+# Start = int(input("Enter the Starting Number:"))
+# Ending = int(input("Enter the Ending Number:"))
 
-Even=0
-Odd=0
+# Even=0
+# Odd=0
 
-for i in range(Start,Ending+1):
-    if(i%2==0):
-     Even=Even+1
+# for i in range(Start,Ending+1):
+#     if(i%2==0):
+#      Even=Even+1
 
-    else:
-       Odd=Odd+1
-print("The NUmber of Even Number is:",Even)
-print("The NUmber of Odd Number is:",Odd)
+#     else:
+#        Odd=Odd+1
+# print("The NUmber of Even Number is:",Even)
+# print("The NUmber of Odd Number is:",Odd)
+#--------------------------------------------------------------------------------------------------------
+
+#7) To check the Number or String is a Palindrome
+
+Value = (input("Enter the Value:"))
+
+Reverse = Value[::-1]
+
+if(Value==Reverse):
+    print("The Value Entered is Palindrome")
+else:
+    print("The Entered Value is Not a Palindrome")    
+
+
 
 
 
