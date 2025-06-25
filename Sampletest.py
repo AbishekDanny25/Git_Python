@@ -67,14 +67,16 @@
 
 #7) To check the Number or String is a Palindrome
 
-Value = (input("Enter the Value:"))
+# Value = (input("Enter the Value:"))
 
-Reverse = Value[::-1]
+# Reverse = Value[::-1]
 
-if(Value==Reverse):
-    print("The Value Entered is Palindrome")
-else:
-    print("The Entered Value is Not a Palindrome")    
+# if(Value==Reverse):
+#     print("The Value Entered is Palindrome")
+# else:
+#     print("The Entered Value is Not a Palindrome")    
+
+#---------------------------------------------------------------------------------------------------------
 
 
 
