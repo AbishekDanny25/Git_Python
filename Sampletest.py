@@ -87,7 +87,15 @@
 #     i=i-1
 # print(fact)    
 #----------------------------------------------------------------------------------------------------------
+#9) Program to print the word in reverse
+# word=input("Enter the Word:")
 
+# reverse=""
+
+# for i in word:
+#     reverse=i+reverse
+# print("The Reverse Word is:",reverse)    
+#-----------------------------------------------------------------------------------------------------------------
 
 
 
