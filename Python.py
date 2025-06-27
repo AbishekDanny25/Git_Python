@@ -46,3 +46,29 @@
 #     i=i-1
 # print(fact)    
 #----------------------------------------------------------------------------------------------------------
+
+#Functions to add, sub , Mult , Div
+
+A=int(input("Enter the Number:"))
+B=int(input("Enter the Number:"))
+
+Operations=int(input("Choose the Operation to do:1,2,3,4:"))
+
+if(Operations==1):
+    def add():
+        print(A+B)
+    add()
+elif(Operations==2):
+    def sub():
+        print(A-B)
+    sub()
+elif(Operations==3):
+    def mult():
+        print(A*B)    
+    mult()    
+elif(Operations==4):
+    def div():
+        print(A//B)
+    div()  
+
+      
