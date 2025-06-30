@@ -83,3 +83,16 @@
 # a= int(input("Enter the Number:"))
 # evenorodd(a)
 #------------------------------------------------------------------------------------------------------------------------
+
+#Getting a input from user and passing it to function to check the number is even or odd
+
+# a= int(input("Enter the Number:"))
+
+# def evenorodd(a):
+#     if(a%2==0):
+#         print("The Number is Even")
+#     else:
+#         print("The Number is Odd")    
+
+# evenorodd(a)       
+#-----------------------------------------------------------------------------------------------------------------------------
