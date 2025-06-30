@@ -146,15 +146,16 @@
 
 #Setting username and password and assinging a function named "Validate" to check whether the user name and password is correct or wrong
 
-username="Abishek"
-password="1234"
+# username="Abishek"
+# password=1234
 
-Uname=int(input("Enter the Username:"))
-passlock=int(input("Enter the Passlock:"))
+# Uname=str(input("Enter the Username:"))
+# passlock=int(input("Enter the Passlock:"))
 
-def validate():
-    if(username==Uname and password==passlock):
-        print("correct")
-    else:
-        print("Wrong")
-validate()        
+# def validate():
+#     if(username==Uname and password==passlock):
+#         print("correct")
+#     else:
+#         print("Wrong")
+# validate()        
+#-----------------------------------------------------------------------------------------------------------------------------------------------
