@@ -144,18 +144,19 @@
 # printrange(a,b)
 #-----------------------------------------------------------------------------------------------------------------------------------------
 
-#Setting username and password and assinging a function named "Validate" to check whether the user name and password is correct or wrong
+#Setting username and password and assinging a function named "Validate" to return whether the user name and password is True or False
 
-# username="Abishek"
-# password=1234
+username="Abishek"
+password=1234
 
-# Uname=str(input("Enter the Username:"))
-# passlock=int(input("Enter the Passlock:"))
+Uname=str(input("Enter the Username:"))
+passlock=int(input("Enter the Passlock:"))
 
-# def validate():
-#     if(username==Uname and password==passlock):
-#         print("correct")
-#     else:
-#         print("Wrong")
-# validate()        
+def validate():
+    if(username==Uname and password==passlock):
+        return True
+    else:
+        return False
+a=validate()
+print(a)        
 #-----------------------------------------------------------------------------------------------------------------------------------------------
