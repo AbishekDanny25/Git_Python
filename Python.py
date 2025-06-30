@@ -121,3 +121,25 @@
 # a=int(input("Enter the Mark:"))
 # passorfail(a)    
 #----------------------------------------------------------------------------------------------------------------------------------
+
+#Getting a input from the user for a and b and passing it to function and to print the numbers from given range of a and b
+
+# a=int(input("Enter the Starting:"))
+# b=int(input("Enter the End Range:"))
+
+# def printrange(a,b):
+#     for i in range(a,b):
+#         print(i)
+# printrange(a,b)        
+
+#--------------------------------------------------------------------------------------------------------------------------------------
+#Getting a input from the user for a and b and passing it to function and to print the numbers from given range of a and b
+
+# def printrange(x,y):
+#     for i in range(x,y):
+#         print(i)
+# a=int(input("Enter the Number:"))
+# b=int(input("Enter the Number:"))
+
+# printrange(a,b)
+#-----------------------------------------------------------------------------------------------------------------------------------------
