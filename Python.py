@@ -111,12 +111,13 @@
 
 #Get a Input from the User and pass it to function to check whether the Pass or fail
 
-def passorfail(b):
+# def passorfail(b):
 
- if(b>=35):
-    print("Pass")
- else:
-    print("Fail")
+#  if(b>=35):
+#     print("Pass")
+#  else:
+#     print("Fail")
 
-a=int(input("Enter the Mark:"))
-passorfail(a)    
+# a=int(input("Enter the Mark:"))
+# passorfail(a)    
+#----------------------------------------------------------------------------------------------------------------------------------
