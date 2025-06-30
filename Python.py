@@ -72,3 +72,14 @@
 #     div()  
 #-------------------------------------------------------------------------------------------------------------------
 
+#Getting a input from user and passing it to function to check the number is even or odd
+
+# def evenorodd(b):
+#     if(b%2==0):
+#         print("The Number",b,"is Even")
+#     else:
+#         print("The number",b,"is Odd")
+
+# a= int(input("Enter the Number:"))
+# evenorodd(a)
+#------------------------------------------------------------------------------------------------------------------------
