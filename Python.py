@@ -96,3 +96,14 @@
 
 # evenorodd(a)       
 #-----------------------------------------------------------------------------------------------------------------------------
+
+#Get a Input from the User and pass it to function to check whether the Pass or fail
+
+mark=int(input("Enter the Mark:"))
+
+def passorfail(mark):
+    if(mark>=35):
+        print("Pass")
+    else:
+        print("Fail")
+passorfail(mark)        
