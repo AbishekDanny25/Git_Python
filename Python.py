@@ -171,3 +171,36 @@
 # output=added*c
 # print(output)
 #-----------------------------------------------------------------------------------------------------------------------------------------------
+
+#Classes and Objects
+
+class laptop:
+    Price=0
+    Processor=""
+    RAM=""
+
+Hp= laptop()
+Dell=laptop()
+lenovo=laptop()
+
+Hp.Price =50000
+Hp.Processor="i5"
+Hp.RAM="6gb"
+
+lenovo.Price=60000
+lenovo.Processor="i5"
+lenovo.RAM="8gb"
+
+Dell.Price=80000
+Dell.Processor="i7"
+Dell.RAM="16gb"
+
+print
+
+print(lenovo)
+
+print(Dell) 
+
+
+
+
